@@ -1,0 +1,364 @@
+
+
+/* global */
+.contenedor {
+    max-width: 110rem;
+    margin: 0 auto 0 auto;
+}
+h1, h3 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-break: auto;
+    font-family: Helvetica,Arial,sans-serif;
+    text-shadow: 0 0.0625rem 0.3125rem rgba(0,0,0,.3);
+}
+
+.centrar {
+     margin:0 auto;
+     display:block;
+     text-align: center;
+ }
+ .centrarvertical{
+    width: 90%;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+ }
+ h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family:Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+    border-color: hsla(0,0%,100%,.5);
+ }
+/* header*/
+.site-header.inicio {
+    box-sizing: border-box;
+    background-image: url(../img/Header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+    height: 400px;
+    padding:2rem;
+}
+.site-header::after{
+    /**para que se vea oscura la foto del background**/
+    content: '';
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;/**para q funcione tiene que estar 'position: relative' en el padre**/
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 400px;
+    /**posicionar la imagen**/
+}
+
+.contenido-header {
+    color: #ffffff;/**no queda en color blanco porque el texto queda atras del background**/
+    position: relative;/**con position relative lo traes al frente**/
+    z-index: 1;/**cualquier numero mayor a cero ya lo hace ver**/
+    text-align: center;
+}
+
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.headernaranja{
+    background-color: #FF8000;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    align-self: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    Padding-left: 20%;
+    padding-right: 5rem;
+}
+
+/* navegacion*/
+.navegacion a{
+    color: white;
+    text-decoration: none;
+}
+.navegacion a:hover{
+    color: orangered;
+}
+header {
+    text-align: right;
+}
+header ul {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    display: flex;  
+    list-style: none;  
+}
+header ul a {
+    display: block;
+    padding: 20px ;
+}
+
+.posicionvisible{
+    overflow: scroll;
+}
+/*carta productos*/
+.cartaProducto{
+    width: 90%;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+
+}
+.caja-producto{
+    text-align: center;
+}
+.cartaProductoImg{
+    border-radius: 10rem 10rem 10rem 10rem;
+    -moz-border-radius: 10rem 10rem 10rem 10rem;
+    -webkit-border-radius: 10rem 10rem 10rem 10rem;
+    border: 0px solid #000000;
+    width: 10rem;
+}
+
+.cartaProductoInput{
+    width: 3rem;
+}
+
+
+.box {
+    width: fit-content
+}
+
+div {
+    margin:0 auto;
+    display:block;
+}
+
+button {
+    margin:0 auto;
+    display:block;
+}
+
+.cartCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgb(241, 93, 118);
+}
+
+.productCard {
+    position: relative;
+    margin-bottom: 100px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    z-index: 10;
+}
+
+.productsOnCart {
+    position: fixed;
+    top: 0;
+    left: -380px;
+    width: 380px;
+    height: 100vh;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+}
+
+.productCardMask {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.404);
+    top: 0;
+    left: -100%;
+}
+
+.show {
+    left: 0;
+}
+
+.pProductos {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-family: Helvetica,Arial,sans-serif; 
+}
+
+
+/*wassap*/
+
+.WhatsAppback{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('http://forums.crackberry.com/attachments/blackberry-10-wallpapers-f308/137432d1361639896t-z10-wallpaper-set-z10-music.jpg');
+}
+.speech-wrapper{
+    padding: 30px 40px;}
+.bubble{
+    width: 240px;
+    height: auto;
+    display: block;
+    background: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 2px 8px 5px #000;
+    position: relative;
+    margin: 0 0 25px;
+}
+.bubble.alt{
+    width: 240px;
+    height: auto;
+    display: block;
+    background: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 2px 8px 5px #000;
+    position: relative;
+    margin: 0 0 0 60px;
+}
+.txt{
+padding: 8px 55px 8px 14px;}
+.name{
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 0 4px;
+    color: #3498db;
+    font-weight: normal;
+}
+.name.alt{
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0 0 4px;
+    color: #3498db;
+    font-weight: normal;
+    color: #2ecc71;
+}
+.message{
+    font-size: 12px;
+    margin: 0;
+    color: #2b2b2b;
+}
+.timestamp{
+    font-size: 11px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    text-transform: uppercase; color: #999
+}
+.bubble-arrow {
+position: absolute;
+width: 0;
+bottom:42px;
+left: -16px;
+height: 0;
+}
+.bubble-arrow.alt{position: absolute;
+    width: 0;
+    bottom:42px;
+    left: -16px;
+    height: 0;
+    right: -2px;      
+    bottom: 40px;
+    left: auto;
+}
+.bubble-arrow:after {
+content: "";
+position: absolute;
+border: 0 solid transparent;
+border-top: 9px solid #f5f5f5;
+border-radius: 0 20px 0;
+width: 15px;
+height: 30px;
+transform: rotate(145deg);
+}
+.bubble-arrow.alt:after {
+transform: rotate(45deg) scaleY(-1);
+}
+
+.myButton {
+	background-color:#44c767;
+	-webkit-border-radius:28px;
+	-moz-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* boton carrito */
+
+.myButton2 {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.listadesplegable{
+    color : black;
+    background-color : white;
+}
+
+.listadesplegable:focus{
+    background-color : white;
+}

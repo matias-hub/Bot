@@ -1,0 +1,20 @@
+[
+    {"nombre": "Leche Cotar"                ,"size":"1 ltr"   ,"precio":55, "imgPath":"img/IMG_4382.jpg" , "id": "prod-01" , "cantidad" : 0},
+    {"nombre": "Leche en polvo"             ,"size":"800 gr"  ,"precio":300,"imgPath":"img/IMG_4374.jpg" , "id": "prod-02" , "cantidad" : 0},
+    {"nombre": "Polenta Bárbara"            ,"size":"500 gr"  ,"precio":30, "imgPath":"img/IMG_4389.jpg" , "id": "prod-03" , "cantidad" : 0},
+    {"nombre": "Aceite Zanoni"              ,"size":"900 ml"  ,"precio":95, "imgPath":"img/IMG_4447.jpg" , "id": "prod-04" , "cantidad" : 0},
+    {"nombre": "Harina 0000 Reinharina"     ,"size":"1 kg"    ,"precio":50, "imgPath":"img/IMG_4434.jpg" , "id": "prod-05" , "cantidad" : 0},
+    {"nombre": "Harina Leudante Reinharina" ,"size":"1 kg"    ,"precio":60, "imgPath":"img/IMG_4367.jpg" , "id": "prod-06" , "cantidad" : 0},
+    {"nombre": "Fideos Livorno"             ,"size":"500 gr " ,"precio":40, "imgPath":"img/IMG_4366.jpg" , "id": "prod-07" , "cantidad" : 0},
+    {"nombre": "Lentejas del Agricultor"    ,"size":"400 gr"  ,"precio":70, "imgPath":"img/IMG_4392.jpg" , "id": "prod-08" , "cantidad" : 0},
+    {"nombre": "Yerba Piporé"               ,"size":"1 kg"    ,"precio":190,"imgPath":"img/IMG_4365.jpg" , "id": "prod-09" , "cantidad" : 0},
+    {"nombre": "Puré de tomate Molto"       ,"size":"520 gr"  ,"precio":45, "imgPath":"img/IMG_4387.jpg" , "id": "prod-10" , "cantidad" : 0},
+    {"nombre": "Azúcar Sweetella"           ,"size":"1 Kg"    ,"precio":60, "imgPath":"img/IMG_4410.jpg" , "id": "prod-11" , "cantidad" : 0},
+    {"nombre": "Arvejas Inalpa"             ,"size":"lata"    ,"precio":25, "imgPath":"img/IMG_4421.jpg" , "id": "prod-12" , "cantidad" : 0},
+    {"nombre": "Dulce de leche"             ,"size":"400 gr"  ,"precio":70, "imgPath":"img/IMG_4401.jpg" , "id": "prod-13" , "cantidad" : 0},
+    {"nombre": "Mate cocido Piporé"         ,"size":"50 u"    ,"precio":80, "imgPath":"img/IMG_4416.jpg" , "id": "prod-14" , "cantidad" : 0},
+    {"nombre": "Detergente Sedilee"         ,"size":"750 ml"  ,"precio":40, "imgPath":"img/IMG_4443.jpg" , "id": "prod-15" , "cantidad" : 0},
+    {"nombre": "Lavandina Sedilee"          ,"size":"1 L"     ,"precio":40, "imgPath":"img/IMG_4439.jpg" , "id": "prod-16" , "cantidad" : 0},
+    {"nombre": "Pepas Benjamin"             ,"size":"200 gr"  ,"precio":30, "imgPath":"img/IMG_4384.jpg" , "id": "prod-17" , "cantidad" : 0},
+    {"nombre": "Tostadas de mesa RIera"     ,"size":"200 gr"  ,"precio":60, "imgPath":"img/IMG_4390.jpg" , "id": "prod-18" , "cantidad" : 0}
+]
